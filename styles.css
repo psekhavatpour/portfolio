@@ -1,0 +1,84 @@
+/*********w***********
+
+    Final project
+    Name: Parmis Sekhavatpour
+    Date: 2023-04-26
+    Description: Home page design
+*********************/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+
+}
+
+header {
+  background-color: gray;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+nav li {
+  margin-right: 20px;
+
+
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+
+}
+nav {
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  background-color: #eee;
+  color: #666;
+  padding: 20px;
+  text-align: center;
+}

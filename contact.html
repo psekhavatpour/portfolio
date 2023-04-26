@@ -1,0 +1,52 @@
+<!--------w-----------
+
+	Do not alter this comment block. 
+	Only fill out the information below.
+	
+    Final project
+    Name: Parmis Sekhavatpour
+    Date: 2023-04-26
+    Description: contact us page html
+	
+-------------------->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" type="text/css" href="styles2.css">
+  <script src="j1.js"></script>
+</head>
+<body>
+  <header>
+  <h1>Contact Us</h1>
+        <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      </header>
+  <p>Have a question or feedback for us? Fill out the form below and we'll get back to you as soon as possible.</p>
+  <form id="contact-form" method="post" action="index.html">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <span class="error" id="name-error">Please enter your name.</span>
+    
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+    <span class="error" id="phone-error">Please enter a 10-digit phone number.</span>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <span class="error" id="email-error">Please enter a valid email address.</span>
+    
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments" rows="5"></textarea>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
